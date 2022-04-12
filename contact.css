@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*	content
+---------------------------------------------------------------------*/
+div#content h1.c_ch1 span {
+	border-bottom:solid 4px #FF9900;
+}
+
+
+/*	contact
+---------------------------------------------------------------------*/
+section#contact {
+	padding:0 0 30px 0;
+}
+section#contact div.set {
+	width:900px;
+	margin:0 auto;
+}
+@media screen and (max-width: 919px){
+	section#contact div.set {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+}
+section#contact div.set aside {
+	margin:20px 0 0 0;
+}
+section#contact div.set aside p {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	margin-bottom:20px;
+	line-height:1.4;
+}
+section#contact div.set h2 {
+	font-size:32px;
+	text-align:center;
+	line-height:2;
+	color:#79C8C2;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	font-weight:400;
+}
+section#contact div.set ul {
+	float:left;
+	width:340px;
+	margin:0 0 20px 0;
+}
+section#contact div.set ul li {
+	margin:20px 20px 0 0;
+}
+section#contact div.set ul li input {
+	background:#EEEEEE;
+	font-family: 'Muli', sans-serif;
+	font-size:16px;
+	width:320px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	border:solid 10px #EEEEEE;
+}
+section#contact div.set div form div.message {
+	float:right;
+	width:500px;
+	margin:20px 0 20px 0;
+}
+section#contact div.set div.message textarea {
+	background:#EEEEEE;
+	font-family: 'Muli', sans-serif;
+	font-size:16px;
+	width:500px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	border:none;
+	border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	border:solid 10px #EEEEEE;
+}
+section#contact div.set ul li input:focus, section#contact div.set div form div.message textarea:focus {
+	background:#FFFFCF;
+	border:solid 10px #FFFFCF;
+}
+section#contact div.set dl {
+	clear:both;
+}
+section#contact div.set dl dt {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	margin-bottom:20px;
+	line-height:1.4;
+	margin:0 0 0 0;
+	text-align:center;
+}
+section#contact div.set dl dd {
+	text-align:center;
+}
+section#contact div.set dl dd p {
+	margin:10px 0 0 0;
+	text-align:center;
+}
+section#contact div.set dl dd p input {
+	background:#EEEEEE;
+	font-family: 'Muli', sans-serif;
+	font-size:16px;
+	width:80px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	border:solid 10px #EEEEEE;
+}
+section#contact div.set dl dd p input:focus {
+	background:#FFFFCF;
+	border:solid 10px #FFFFCF;
+}
+section#contact div.set p.send {
+	padding:20px 0 0 0;
+	text-align:center;
+}
+section#contact div.set p.send span input {
+	background:#79C8C2;
+	font-size:18px;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	border:solid 1px #79C8C2;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-weight:700;
+	padding:10px 200px 10px 200px;
+	box-shadow: 0px 10px 5px -5px #CCCCCC;
+    -webkit-box-shadow: 0px 10px 5px -5px #CCCCCC;
+    -moz-box-shadow: 0px 10px 5px -5px #CCCCCC;
+}
+@media screen and (max-width: 919px){
+	section#contact div.set ul, section#contact div.set div form div.message {
+		float:none;
+		width:auto;
+	}
+	section#contact div.set div {
+		margin:20px 20px 0 0;
+	}
+	section#contact div.set ul li input, section#contact div.set div form div.message textarea {
+		width:100%;
+		font-size:20px;
+	}
+	section#contact div.set p.send {
+		clear:none;
+	}
+	section#contact div.set p.send span input {
+		padding:15px 0 15px 0;
+		width:100%;
+		font-size:20px;
+	}
+}

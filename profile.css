@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/*	content
+---------------------------------------------------------------------*/
+div#content h1.p_ch1 span {
+	border-bottom:solid 4px #3399FF;
+}
+
+
+/*	prof
+---------------------------------------------------------------------*/
+section#prof {
+	padding:0 0 20px 0;
+}
+section#prof div {
+	width:900px;
+	margin:0 auto;
+}
+section#prof div h2 {
+	font-size:32px;
+	text-align:center;
+	line-height:2;
+	color:#79C8C2;
+	margin:0 0 20px 0;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	font-weight:400;
+}
+section#prof div dl dt {
+	text-align:center;
+	margin:0 0 15px 0;
+}
+section#prof div dl dd {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	margin-bottom:20px;
+	line-height:1.4;
+}
+section#prof div dl dd span {
+	font-size:12px;
+}
+section#prof ul {
+	text-align:center;
+}
+section#prof ul li {
+	display:inline-block;
+	padding:15px 5px 5px 5px;
+}
+section#prof ul li span {
+	background:#EEEEEE;
+	border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
+	color:#000000;
+	font-size:16px;
+}
+@media screen and (max-width: 919px){
+	section#prof div {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+}
+@media screen and (max-width: 219px){
+	section#prof div dl dt img {
+		width:100%;
+	}
+}
+
+
+/*	school01
+---------------------------------------------------------------------*/
+section#school01 {
+	padding:20px 0 20px 0;
+	background:#3399FF;
+}
+section#school01 div {
+	width:900px;
+	margin:0 auto;
+}
+section#school01 div h3 {
+	text-align:center;
+	line-height:2;
+	color:#FFFFFF;
+	text-align:center;
+	margin:0 0 20px 0;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	text-shadow: 1px 1px 2px #333366;
+	font-size:26px;
+	font-weight:400;
+}
+section#school01 div p {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	padding:0 0 20px 0;
+	color:#EEEEEE;
+	text-shadow: 1px 1px 2px #333366;
+}
+@media screen and (max-width: 919px){
+	section#school01 div {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+	section#school01 div h3 {
+		line-height:1.4;
+	}
+}
+
+
+/*	work01
+---------------------------------------------------------------------*/
+section#work01 {
+	padding:20px 0 0 0;
+	background:#CCCC00;
+}
+section#work01 div h3 {
+	font-size:26px;
+	text-align:center;
+	line-height:2;
+	color:#FFFFFF;
+	text-align:center;
+	margin:0 0 20px 0;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	text-shadow: 1px 1px 2px #666600;
+	font-weight:400;
+}
+section#work01 div {
+	width:900px;
+	margin:0 auto;
+}
+section#work01 div p {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	line-height:1.4;
+	color:#EEEEEE;
+	padding:0 0 20px 0;
+	text-shadow: 1px 1px 2px #666600;
+}
+@media screen and (max-width: 919px){
+	section#work01 div {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+	section#work01 div h3 {
+		line-height:1.4;
+	}
+}
+
+
+/*	philippines
+---------------------------------------------------------------------*/
+section#philippines {
+	padding:20px 0 0 0;
+	background:#FF99CC;
+}
+section#philippines div {
+	width:900px;
+	margin:0 auto;
+}
+section#philippines div h3 {
+	font-size:26px;
+	text-align:center;
+	line-height:2;
+	text-align:center;
+	margin:0 0 20px 0;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 2px #FF3366;
+	font-weight:400;
+}
+section#philippines div p {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	padding-bottom:20px;
+	line-height:1.4;
+	color:#EEEEEE;
+	text-shadow: 1px 1px 2px #FF3366;
+}
+@media screen and (max-width: 919px){
+	section#philippines div {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+	section#philippines div h3 {
+		line-height:1.4;
+	}
+}
+
+
+/*	Taiwan
+---------------------------------------------------------------------*/
+section#taiwan {
+	background:#FF9900;
+	padding:20px 0 0 0;
+}
+section#taiwan div {
+	width:900px;
+	margin:0 auto;
+}
+section#taiwan div h3 {
+	font-size:26px;
+	text-align:center;
+	line-height:2;
+	color:#FFFFFF;
+	text-align:center;
+	margin:0 0 20px 0;
+	font-family: 'Merriweather Sans', Arial, sans-serif;
+	text-shadow: 1px 1px 2px #CC3300;
+	font-weight:400;
+}
+section#taiwan div p {
+	font-size:18px;
+	font-family: 'Muli', sans-serif;
+	padding-bottom:20px;
+	line-height:1.4;
+	text-shadow: 1px 1px 2px #CC3300;
+	color:#EEEEEE;
+}
+@media screen and (max-width: 919px){
+	section#taiwan div {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+	section#taiwan div h3 {
+		line-height:1.4;
+	}
+}

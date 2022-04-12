@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+/* font-color
+--------------------------------------------------------------------*/
+
+body {
+	background:#EEEEEE;
+	color:#333333;
+}
+
+/* heading
+--------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Muli',"メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka",Verdana,"ＭＳ Ｐゴシック","MS P Gothic",Arial,Helvetica,sans-serif;
+	font-size: 1em;
+	font-weight:normal;
+}
+
+h1 strong,
+h1 em,
+h2 strong,
+h2 em,
+h3 strong,
+h3 em,
+h4 strong,
+h4 em,
+h5 strong,
+h5 em,
+h6 strong,
+h6 em {
+	font-weight: inherit;
+	_font-weight: expression(this.parentNode.currentStyle.fontWeight);
+	*font-weight: expression(this.parentNode.currentStyle.fontWeight);
+}
+
+/* normal block
+--------------------------------------------------------------------*/
+
+p {
+	text-align: justify;
+	text-justify: distribute;
+}
+
+/* anchor
+--------------------------------------------------------------------*/
+
+a:link {
+	color: #CCCC00;
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #CCCC00;
+	text-decoration:underline;
+}
+
+a:hover {
+	color: #CCCC00;
+	text-decoration: none;
+}
+
+a:active {
+}
+
+/* table
+--------------------------------------------------------------------*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*
+Theme Name: zebrawolftheme
+Description:theme of zebrawolf
+Theme URI: http://www.zebrawolf.com/
+Author: baru
+Author URI: http://www.zebrawolf.com/
+Version: 1.0
+License: Baru only
+License URI: http://www.zebrawolf.com/
+*/
+
+@import url(reset.css);
+@import url(base.css);
+@import url(common.css);

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*	content
+---------------------------------------------------------------------*/
+div#content h1.jp_ch1 span {
+	border-bottom:solid 4px #CC99CC;
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-weight:700;
+}
+
+
+/*	jp_about
+---------------------------------------------------------------------*/
+section#jp_about {
+	margin:0 0 20px 0;
+}
+section#jp_about div {
+	width:900px;
+	margin:0 auto;
+}
+section#jp_about div h2 {
+	font-size:32px;
+	text-align:center;
+	line-height:2;
+	color:#79C8C2;
+	margin:0 0 20px 0;
+	font-family:'Noto Sans Japanese', sans-serif;
+	font-weight:700;
+}
+section#jp_about div p {
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#000000;
+}
+section#jp_about ul {
+	text-align:center;
+}
+section#jp_about ul li {
+	display:inline-block;
+	padding:15px 5px 5px 5px;
+}
+section#jp_about ul li span {
+	border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
+	font-size:16px;
+	color:#FFFFFF;
+	background:#79C8C2;
+	font-family: 'Merriweather Sans','Noto Sans Japanese',"ＭＳ Ｐゴシック","MS P Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka",Verdana,Arial,Helvetica, sans-serif;
+}
+@media screen and (max-width: 919px){
+	section#jp_about div {
+		width:auto;
+		padding:0 20px 0 20px;
+	}
+}
+
+
+/*	jp_box
+---------------------------------------------------------------------*/
+section.jp_box {
+	margin:0 0 20px 0;
+}
+section.jp_box div {
+	width:900px;
+	margin:0 auto;
+	border-radius:10px 10px 10px 10px / 10px 10px 10px 10px;
+	padding:15px 15px 15px 15px;
+	background:#EEEEEE;
+}
+section.jp_box div h3 {
+	text-align:center;
+	line-height:2;
+	text-align:center;
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-size:26px;
+	font-weight:normal;
+}
+section.jp_box div p {
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	margin:10px 0 0 0;
+}
+
+@media screen and (max-width: 919px){
+	section.jp_box {
+		padding:0 20px 0 20px;
+	}
+	section.jp_box div {
+		width:auto;
+	}
+}
